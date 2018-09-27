@@ -1,0 +1,33 @@
+{
+  "name": "json2stdout",
+  "version": "0.0.1",
+  "description": "Stupid logger, just JSON to STDOUT",
+  "keywords": [
+    "logger",
+    "logs"
+  ],
+  "bugs": {
+    "url": "https://github.com/fanatid/json2stdout/issues"
+  },
+  "license": "MIT",
+  "contributors": [
+    "Kirill Fomichev <fanatid@ya.ru> (https://github.com/fanatid)"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fanatid/json2stdout.git"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "unit": "node test/*.js"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "tape": "^4.9.1"
+  }
+}
