@@ -6,8 +6,8 @@
 
 This is simple logger for JavaScript programs.
 
-- Support only 2 levels: `info` & `error` because nobody in reality do not care about other levels.
-- All logs going to stdout, because apps is not a place where logs should be processed.
+- Support only 2 levels: `info` & `error`, because in reality nobody cares about the other levels.
+- All logs going to stdout, because your app is not a place where logs should be processed.
 - Output in JSON, because it's really easy to parse.
 - Fields in JSON object in order: `timestamp`, `level`, `message`, ...rest
 
